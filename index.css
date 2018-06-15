@@ -1,0 +1,125 @@
+body{
+    background-color: #f9f8f7;
+}
+
+.header{
+  background-color: #fab131;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  color: white;
+  text-align: center;
+}
+
+.container{
+    margin-top:70px;
+}
+
+.pet-photo{
+    height: 260px;
+    width: auto;
+}
+
+.dog-photo{
+    height: 100px;
+    width: auto;
+}
+
+.badge{
+    height: 10px;
+    width: auto;
+    margin-left: 30px;
+    margin-top:-12px
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.center .title{
+    margin-left: 40px;
+}
+
+.badge-format{
+    margin-top: -15px;
+}
+
+.col-4.card.green-background{
+    background-color:rgba(124,183,182,0.2);
+}
+
+.accounts{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.number-title{
+    text-align: center;
+}
+
+.number-value.size-md.center{
+    margin-top: 20px;
+}
+
+.social-icons{
+    height: 20px;
+    width: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.connect{
+    text-align: center;
+}
+
+.uppercase{
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.health-photo{
+    height: 50px;
+    width: auto;
+    margin-top: 20px;
+}
+
+.health2{
+    height: 33px;
+    width: auto;
+}
+
+.card.no-background-color.col-8 {
+    background-color: #f9f8f7;
+}
+
+.pet-column--container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pet-column--stats-toggle-container {
+    margin: 20px 0 20px 0;
+}
+
+.section.actionable {
+    margin: 0;
+    padding: 20px;
+}
+
+.points{
+    background-color: white;
+    padding: 25px;
+}
+
+.text-gray{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.custom{
+    margin-top: -2px;
+}
