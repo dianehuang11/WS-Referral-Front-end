@@ -113,6 +113,8 @@ body{
 .points{
     background-color: white;
     padding: 25px;
+    margin-top: 120px;
+    padding-top: 80px;
 }
 
 .text-gray{
@@ -122,4 +124,27 @@ body{
 
 .custom{
     margin-top: -2px;
+}
+
+.pet-photo{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    overflow: hidden;
+    background-image: url("./pet.png");
+    background-position: center;
+    background-size: 90%;
+    background-color: white;
+    background-repeat: no-repeat;
+}
+
+.hidden {
+    display: none;
+}
+
+.toy-photo{
+    height: 40px;
+    width: auto;
+    margin-left: -50px;
 }

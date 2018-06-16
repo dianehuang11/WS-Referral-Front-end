@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Hello</title>
+        <title>Lancelot</title>
         <link rel="stylesheet" href="https://fabric.wealthsimple.com/docs.css"/>
         <link rel="stylesheet" href="index.css"/>
     </head>
@@ -18,7 +18,7 @@
                     <div class="center">
                           <img class="dog-photo" src="./dog.png">
                           <div class="align">
-                           <h5 style="margin-top:20px" class="uppercase-sans-bold title"> DogLord </h5>
+                           <h5 style="margin-top:20px" class="uppercase-sans-bold title"> Sir Lancelot </h5>
                            <p class="uppercase-text title"> Sassy Pumpkin </p>
                             <div class="badge-format"> <img class="badge" src="./star.png">
                                 <span class="text-yellow" style="font-size: 13px"> 
@@ -36,7 +36,7 @@
                     <div class="row-md">
                          <p class="col-4"> RRSP   
                             </p>
-                             <p class="col-4"> RESP  
+                             <p class="col-4"> HISA  
                              </p>
                                  <p class="col-4"> TFSA   
                                  </p>
@@ -55,7 +55,7 @@
                     </p>
              <div class="center">
                 <h5 style="margin-top:10px" class="h5-sans-normal"> 
-                    Connect with DogLord 
+                    Connect with Sir Lancelot 
                  </h5>
                     </div>
                 <div class="connect">
@@ -74,34 +74,65 @@
 
                 <div class="card no-background-color col-8 pet-column--container">
                     <div class="center">
-                            <img class="pet-photo" src="./pet.png">
+                        <div class="pet-photo">
+                        </div>
                     </div>
                 <div class="points">
                     <h3 class="uppercase"> Sassy Pumpkin </h3>
                     <h5 style="text-align: center" class="h5-sans-normal"> Breed: Teddybear Corgi </h5>
-                    <div class="center">
-                            <img class="health-photo" src="./health1.png">
-                    </div>
+            
+                    <div class="js-health-container">
+                        <div class="center">
+                                <img class="health-photo" src="./health1.png">
+                        </div>
+
                         <p class="text-gray">hunger</p>
-                    <div class="center">
-                            <img class="health2" src="./health2.png">
+                        
+                        <div class="center">
+                                <img class="health2" src="./health2.png">
+                        </div>
+
+                        <p class="text-gray">energy</p>
+                        
+                        <div class="center">
+                                <img class="health-photo custom" src="./health3.png">
+                        </div>
+
+                        <p class="text-gray">happiness</p>
                     </div>
+
+                    <div class="js-item-container hidden">
+                            <div class="center">
+                                    <img class="health-photo" src="./food.png">
+                            </div>
+    
+                            <p class="text-gray">hunger</p>
+                            
+                            <div class="center">
+                                    <img class="toy-photo" src="./toys.png">
+                            </div>
+    
                             <p class="text-gray">energy</p>
-                    <div class="center">
-                            <img class="health-photo custom" src="./health3.png">
+                            
+                            <div class="center">
+                                    <img class="health-photo custom" src="./clothes.png">
+                            </div>
+    
+                            <p class="text-gray">happiness</p>
                     </div>
-                             <p class="text-gray">happiness</p>
+
                 <div class="row-md toggle pet-column--stats-toggle-container">
-                    <div class="col-6 section actionable">
-                            Status
-                          </div>
-                          <div class="col-6 section actionable">
-                            Swagbag
-                          </div>
+                    <div class="col-6 section actionable js-health-container-toggle">
+                        Health
+                    </div>
+                    <div class="col-6 section actionable js-item-container-toggle">
+                        Swagbag
+                    </div>
                 </div>
                  </div>
                 </div>
               </div>
             </div>
+            <script src="main.js"></script>
     </body>
 </html>
