@@ -148,3 +148,44 @@ body{
     width: auto;
     margin-left: -50px;
 }
+
+.card.refer{
+    background-color: white;
+    border-radius: 10%;
+    border: #fab131 1px;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: #fab131;
+    padding: 5px;
+    font-weight: 500px
+}
+
+.container-fluid.container-yellow{
+    width: 300px;
+    color: white;
+    margin: 0 auto;
+    margin-top: -15px;
+}
+
+.referral{
+    text-align: center;
+}
+
+.p-sans-normal{
+    margin-top: 10px;
+}
+
+.button.secondary-action.custom{
+    background-color: white; 
+}
+
+.text-only{
+    padding-top: 15px
+}
+
+.row-md.custom{
+    padding: 15px;
+    margin-top: -10px;
+}
